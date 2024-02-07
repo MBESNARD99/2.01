@@ -5,7 +5,7 @@ public class Chien extends AnimalAvecPattes{
 	private int categorie;
 	
 	public Chien(String race, double poids, int categorie) {
-		super();
+		super(race, poids);
 		this.categorie = categorie;
 	}
 
