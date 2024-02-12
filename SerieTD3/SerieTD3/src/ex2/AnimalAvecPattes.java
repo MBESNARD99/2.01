@@ -1,6 +1,11 @@
 package ex2;
 
 public abstract class AnimalAvecPattes extends Animal{
+	
+	public AnimalAvecPattes(String race, double poids, int nbPattes) {
+		super(race, poids);
+		this.nbPattes = nbPattes;
+	}
 
 	private int nbPattes;
 
